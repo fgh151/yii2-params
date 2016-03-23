@@ -1,0 +1,32 @@
+{
+    "name": "fgh151/yii2-params",
+    "version": "0.0.1",
+    "description": "Yii2 params files managment",
+    "keywords": ["yii2", "params"],
+    "homepage": "http://openitstudio.ru",
+    "type": "yii2-extension",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org"
+        },
+        {
+            "name": "Evgenii Dudal",
+            "email": "wolfstrace@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.2",
+        "yiisoft/yii2-bootstrap": "~2.0"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "fgh151\\modules\\params": ""
+        }
+    }
+}
