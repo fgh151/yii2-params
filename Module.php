@@ -12,7 +12,7 @@ class Module extends \yii\base\Module
 {
     public $defaultRoute = 'main';
     
-    public $controllerNamespace = 'common\modules\params\controllers';
+    public $controllerNamespace = 'fgh151\modules\params\controllers';
     
     public $paramsFilePath = [];
 
