@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "fgh151\\modules\\params": ""
+            "fgh151\\modules\\params\\": ""
         }
     }
 }

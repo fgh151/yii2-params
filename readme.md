@@ -40,7 +40,7 @@ Once the extension is installed, simply add it in your config by  :
                    ]
                ]
            ],
-```php
+```s
 
 add to paramsFilePath array names of files and path to them
 
