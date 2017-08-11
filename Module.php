@@ -3,12 +3,13 @@
 namespace fgh151\modules\params;
 
 use Yii;
+use yii\base\Module as BaseModule;
 
 /**
  * Class Module
  * @package fgh151\modules\params
  */
-class Module extends \yii\base\Module
+class Module extends BaseModule
 {
     public $defaultRoute = 'main';
     
@@ -27,7 +28,7 @@ class Module extends \yii\base\Module
         Yii::$app->i18n->translations['params/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@eapanel/params/messages',
+            'basePath' => '@app/modules/params/messages',
             'fileMap' => [
                 'params/system' => 'system.php',
                 'params/app' => 'app.php'
